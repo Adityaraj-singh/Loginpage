@@ -1,0 +1,31 @@
+.nav-bar {
+  width: 100%;
+  background-color: rgb(46, 109, 176);
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  width: 300px;
+  font-size: 32px;
+  width: 60px;
+}
+.name {
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.logout {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 30px;
+}

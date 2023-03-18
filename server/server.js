@@ -10,7 +10,7 @@ var corsOptions = {
 app.use(cors(corsOptions));
 
 app.get("/api", (req, res) => {
-  res.json({ users: ["Aditya", "kaustubh", "Radhika"] });
+  res.json({ fileUrl: "/C:Users/HP/Assigenment-o/server/images/example.pdf" });
 });
 
 app.listen(5000, () => {
